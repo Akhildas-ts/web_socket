@@ -1,0 +1,42 @@
+# Week 4 FastAPI Projects Requirements
+
+# Core FastAPI and async dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Security and authentication
+python-jose[cryptography]==3.3.0
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+
+# Data validation and serialization
+pydantic==2.5.0
+email-validator==2.1.0
+
+# Machine Learning (for Fraud Detection)
+scikit-learn==1.3.2
+numpy==1.24.3
+pandas==2.0.3
+joblib==1.3.2
+
+# Database and caching (optional, using mocks in demo)
+# redis==5.0.1
+# sqlalchemy==2.0.23
+# alembic==1.13.1
+
+# Background tasks and utilities
+celery==5.3.4
+python-dateutil==2.8.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+black==23.11.0
+flake8==6.1.0
+
+# Logging and monitoring
+python-json-logger==2.0.7
+prometheus-client==0.19.0
